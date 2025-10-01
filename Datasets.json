@@ -196,5 +196,170 @@
       "D. Sự suy yếu của các tổ chức quốc tế."
     ],
     "answer": "B. Một thời kì phát triển mới, đa cực trong quan hệ quốc tế."
+  },
+  {
+    "context": "Gen là một đoạn ADN mang thông tin di truyền.",
+    "question": "Gen được định nghĩa chính xác là gì?",
+    "options": [
+      "A. Một đoạn ARN mang thông tin mã hóa.",
+      "B. Một đoạn ADN mang thông tin mã hóa cho một chuỗi polipeptit hoặc phân tử ARN.",
+      "C. Toàn bộ phân tử ADN trong nhân tế bào.",
+      "D. Một phân tử protein có chức năng di truyền."
+    ],
+    "answer": "B. Một đoạn ADN mang thông tin mã hóa cho một chuỗi polipeptit hoặc phân tử ARN."
+  },
+  {
+    "context": "Cấu trúc gen gồm vùng điều hoà, vùng mã hoá, vùng kết thúc.",
+    "question": "Vùng điều hoà của gen nằm ở đâu trên mạch mã gốc?",
+    "options": [
+      "A. Đầu 5’ của mạch mã gốc.",
+      "B. Đầu 3’ của mạch mã gốc.",
+      "C. Xen kẽ các exon và intron.",
+      "D. Ở cuối vùng mã hoá."
+    ],
+    "answer": "B. Đầu 3’ của mạch mã gốc."
+  },
+  {
+    "context": "Ở sinh vật nhân sơ, vùng mã hoá liên tục; ở sinh vật nhân thực, vùng mã hoá không liên tục.",
+    "question": "Điểm khác nhau trong vùng mã hoá giữa gen nhân sơ và nhân thực là gì?",
+    "options": [
+      "A. Gen nhân sơ liên tục, gen nhân thực phân mảnh.",
+      "B. Gen nhân sơ phân mảnh, gen nhân thực liên tục.",
+      "C. Cả hai đều phân mảnh.",
+      "D. Cả hai đều liên tục."
+    ],
+    "answer": "A. Gen nhân sơ liên tục, gen nhân thực phân mảnh."
+  },
+  {
+    "context": "Mã di truyền là hệ thống mã hoá thông tin trong ADN thành axit amin.",
+    "question": "Đơn vị mã di truyền là gì?",
+    "options": [
+      "A. Một nuclêôtit.",
+      "B. Một bộ ba nuclêôtit (codon).",
+      "C. Một axit amin.",
+      "D. Một phân tử ARN."
+    ],
+    "answer": "B. Một bộ ba nuclêôtit (codon)."
+  },
+  {
+    "context": "Mã di truyền có các đặc điểm: đặc hiệu, phổ biến, thoái hoá.",
+    "question": "Tính đặc hiệu của mã di truyền có nghĩa là gì?",
+    "options": [
+      "A. Một bộ ba mã hoá nhiều axit amin khác nhau.",
+      "B. Nhiều bộ ba có thể cùng mã hoá một axit amin.",
+      "C. Mỗi bộ ba chỉ mã hoá cho một loại axit amin duy nhất.",
+      "D. Bộ ba mã được dùng chung cho mọi loài sinh vật."
+    ],
+    "answer": "C. Mỗi bộ ba chỉ mã hoá cho một loại axit amin duy nhất."
+  },
+  {
+    "context": "Quá trình nhân đôi ADN diễn ra theo nguyên tắc bán bảo tồn.",
+    "question": "Nguyên tắc bán bảo tồn trong nhân đôi ADN có nghĩa là gì?",
+    "options": [
+      "A. ADN con gồm 2 mạch mới hoàn toàn.",
+      "B. ADN con gồm 1 mạch mới và 1 mạch cũ.",
+      "C. ADN con có cấu trúc khác ADN mẹ.",
+      "D. ADN con chỉ được tạo ra từ ARN."
+    ],
+    "answer": "B. ADN con gồm 1 mạch mới và 1 mạch cũ."
+  },
+  {
+    "context": "Trong quá trình nhân đôi, enzim nối có vai trò quan trọng.",
+    "question": "Enzim nào có chức năng nối các đoạn Okazaki trên mạch mới?",
+    "options": [
+      "A. ADN-polimeraza.",
+      "B. ARN-polimeraza.",
+      "C. Enzim tháo xoắn.",
+      "D. Enzim nối (ligaza)."
+    ],
+    "answer": "D. Enzim nối (ligaza)."
+  },
+  {
+    "context": "ARN thông tin (mARN) có cấu trúc mạch đơn thẳng, đầu 5’ có trình tự đặc hiệu để ribôxôm nhận biết và gắn vào.",
+    "question": "ARN thông tin (mARN) có chức năng chính là gì?",
+    "options": [
+      "A. Mang axit amin đến ribôxôm.",
+      "B. Làm khuôn cho dịch mã tổng hợp prôtêin.",
+      "C. Cấu tạo nên ribôxôm.",
+      "D. Giúp tháo xoắn phân tử ADN."
+    ],
+    "answer": "B. Làm khuôn cho dịch mã tổng hợp prôtêin."
+  },
+  {
+    "context": "ARN vận chuyển (tARN) có cấu trúc mạch đơn tự xoắn, tạo thành ba thùy, có bộ ba đối mã và đầu 3’ gắn axit amin đặc hiệu.",
+    "question": "Chức năng chính của ARN vận chuyển (tARN) là gì?",
+    "options": [
+      "A. Tổng hợp chuỗi polipeptit.",
+      "B. Cấu tạo nên ribôxôm.",
+      "C. Mang axit amin tới ribôxôm và giải mã thông tin di truyền.",
+      "D. Làm khuôn cho quá trình phiên mã."
+    ],
+    "answer": "C. Mang axit amin tới ribôxôm và giải mã thông tin di truyền."
+  },
+  {
+    "context": "ARN ribôxôm (rARN) là thành phần kết hợp với protein để cấu tạo nên ribôxôm.",
+    "question": "ARN ribôxôm (rARN) có vai trò gì?",
+    "options": [
+      "A. Truyền đạt thông tin di truyền từ nhân ra tế bào chất.",
+      "B. Cấu tạo nên ribôxôm cùng với protein.",
+      "C. Mang axit amin tới ribôxôm.",
+      "D. Làm khuôn cho tổng hợp ARN."
+    ],
+    "answer": "B. Cấu tạo nên ribôxôm cùng với protein."
+  },
+  {
+    "context": "Phiên mã là quá trình tổng hợp ARN dựa trên mạch khuôn ADN, diễn ra trong nhân ở kì trung gian.",
+    "question": "Quá trình phiên mã diễn ra ở đâu trong tế bào nhân thực?",
+    "options": [
+      "A. Trong nhân tế bào.",
+      "B. Ở bào tương.",
+      "C. Trên lưới nội chất hạt.",
+      "D. Ở ti thể."
+    ],
+    "answer": "A. Trong nhân tế bào."
+  },
+  {
+    "context": "Trong phiên mã, enzim ARN pôlimeraza trượt dọc theo mạch mã gốc 3’–5’ để tổng hợp ARN theo nguyên tắc bổ sung.",
+    "question": "Enzim nào tham gia chính trong quá trình phiên mã?",
+    "options": [
+      "A. ADN pôlimeraza.",
+      "B. ARN pôlimeraza.",
+      "C. Ligaza.",
+      "D. Gyrase."
+    ],
+    "answer": "B. ARN pôlimeraza."
+  },
+  {
+    "context": "Dịch mã là quá trình tổng hợp prôtêin diễn ra ở tế bào chất, kế tiếp sau phiên mã.",
+    "question": "Quá trình dịch mã diễn ra ở đâu?",
+    "options": [
+      "A. Trong nhân tế bào.",
+      "B. Ở màng sinh chất.",
+      "C. Ở tế bào chất tại ribôxôm.",
+      "D. Trong ti thể."
+    ],
+    "answer": "C. Ở tế bào chất tại ribôxôm."
+  },
+  {
+    "context": "Trong giai đoạn hoạt hóa axit amin, aa kết hợp với ATP và enzim để tạo thành phức hợp aa-tARN.",
+    "question": "Trong quá trình dịch mã, axit amin gắn với phân tử nào để được đưa đến ribôxôm?",
+    "options": [
+      "A. mARN.",
+      "B. rARN.",
+      "C. tARN.",
+      "D. ADN."
+    ],
+    "answer": "C. tARN."
+  },
+  {
+    "context": "Quá trình dịch mã gồm ba giai đoạn: mở đầu, kéo dài và kết thúc.",
+    "question": "Trong giai đoạn mở đầu dịch mã, codon nào thường được dùng làm tín hiệu khởi đầu?",
+    "options": [
+      "A. UAA.",
+      "B. AUG.",
+      "C. UAG.",
+      "D. UGA."
+    ],
+    "answer": "B. AUG."
   }
 ]
