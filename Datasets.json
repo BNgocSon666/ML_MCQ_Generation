@@ -86,5 +86,115 @@
       "D. 18"
     ],
     "answer": "C. 17"
+  },
+  {
+    "context": "Hội nghị I-an-ta diễn ra vào giai đoạn cuối của Chiến tranh thế giới thứ hai, từ ngày 4 đến ngày 11-2-1945, khi phe Đồng minh giành được những thắng lợi quan trọng trên các mặt trận.",
+    "question": "Hội nghị I-an-ta được triệu tập vào thời gian nào?",
+    "options": [
+      "A. Tháng 2-1943",
+      "B. Tháng 2-1944",
+      "C. Tháng 2-1945",
+      "D. Tháng 2-1946"
+    ],
+    "answer": "C. Tháng 2-1945"
+  },
+  {
+    "context": "Hội nghị I-an-ta đưa ra quyết định về việc kết thúc chiến tranh, tiêu diệt tận gốc phát xít Đức, quân phiệt Nhật Bản và thoả thuận phân chia phạm vi ảnh hưởng ở châu Âu và châu Á sau chiến tranh.",
+    "question": "Một trong những quyết định quan trọng của Hội nghị I-an-ta là gì?",
+    "options": [
+      "A. Phân chia thế giới thành ba cực.",
+      "B. Tiêu diệt tận gốc phát xít Đức và quân phiệt Nhật Bản.",
+      "C. Thành lập Liên hợp quốc.",
+      "D. Giải thể các liên minh quân sự."
+    ],
+    "answer": "B. Tiêu diệt tận gốc phát xít Đức và quân phiệt Nhật Bản."
+  },
+  {
+    "context": "Ở châu Âu: Quân đội Liên Xô chiếm đóng miền Đông nước Đức, Đông Béc-lin và các nước Đông Âu; quân đội Mỹ, Anh và Pháp chiếm đóng miền Tây nước Đức, Tây Béc-lin và các nước Tây Âu.",
+    "question": "Sau Chiến tranh thế giới thứ hai, vùng Đông Âu thuộc phạm vi ảnh hưởng của nước nào?",
+    "options": [
+      "A. Mỹ",
+      "B. Liên Xô",
+      "C. Anh",
+      "D. Pháp"
+    ],
+    "answer": "B. Liên Xô"
+  },
+  {
+    "context": "Ở châu Á, sau khi Nhật Bản đầu hàng, quân đội Mỹ chiếm đóng Nhật Bản. Ở bán đảo Triều Tiên, quân đội Liên Xô chiếm đóng miền Bắc, quân đội Mỹ chiếm đóng miền Nam, lấy vĩ tuyến 38 làm ranh giới.",
+    "question": "Sau Chiến tranh thế giới thứ hai, vĩ tuyến nào được chọn làm ranh giới chia cắt hai miền Triều Tiên?",
+    "options": [
+      "A. Vĩ tuyến 17",
+      "B. Vĩ tuyến 20",
+      "C. Vĩ tuyến 38",
+      "D. Vĩ tuyến 45"
+    ],
+    "answer": "C. Vĩ tuyến 38"
+  },
+  {
+    "context": "Trật tự thế giới hai cực I-an-ta tồn tại từ năm 1945 đến năm 1991, trải qua hai giai đoạn: từ 1945 đến đầu những năm 70 (giai đoạn xác lập và phát triển), từ đầu những năm 70 đến 1991 (giai đoạn suy yếu và sụp đổ).",
+    "question": "Trật tự thế giới hai cực I-an-ta tồn tại trong khoảng thời gian nào?",
+    "options": [
+      "A. 1939 - 1945",
+      "B. 1945 - 1991",
+      "C. 1955 - 1989",
+      "D. 1970 - 1991"
+    ],
+    "answer": "B. 1945 - 1991"
+  },
+  {
+    "context": "Trong giai đoạn đầu, Trật tự thế giới hai cực I-an-ta được định hình với sự thiết lập các khối quân sự đối đầu: NATO (1949) và Vác-sa-va (1955).",
+    "question": "Tổ chức Hiệp ước Vác-sa-va được thành lập vào năm nào?",
+    "options": [
+      "A. 1945",
+      "B. 1949",
+      "C. 1955",
+      "D. 1960"
+    ],
+    "answer": "C. 1955"
+  },
+  {
+    "context": "Từ nửa sau những năm 80, Liên Xô và Mỹ đẩy mạnh đối thoại, hợp tác. Năm 1989, Liên Xô và Mỹ cùng tuyên bố chấm dứt Chiến tranh lạnh.",
+    "question": "Liên Xô và Mỹ chính thức tuyên bố chấm dứt Chiến tranh lạnh vào năm nào?",
+    "options": [
+      "A. 1985",
+      "B. 1987",
+      "C. 1989",
+      "D. 1991"
+    ],
+    "answer": "C. 1989"
+  },
+  {
+    "context": "Sự sụp đổ của chủ nghĩa xã hội ở Đông Âu cuối những năm 80 và sự tan rã của Liên Xô (12-1991) đã chấm dứt Trật tự thế giới hai cực I-an-ta.",
+    "question": "Sự kiện nào đánh dấu sự chấm dứt Trật tự thế giới hai cực I-an-ta?",
+    "options": [
+      "A. Liên Xô tan rã năm 1991.",
+      "B. NATO tan rã năm 1991.",
+      "C. Nhật Bản phục hồi kinh tế.",
+      "D. Trung Quốc cải cách mở cửa."
+    ],
+    "answer": "A. Liên Xô tan rã năm 1991."
+  },
+  {
+    "context": "Nguyên nhân dẫn tới sự sụp đổ của Trật tự hai cực I-an-ta là: sự tốn kém do đối đầu căng thẳng Xô - Mỹ, xu thế hoà hoãn Đông - Tây, sự vươn lên của các nước khác, khủng hoảng nội bộ và sự suy yếu kinh tế - xã hội của Liên Xô.",
+    "question": "Nguyên nhân trực tiếp dẫn tới sự sụp đổ của Trật tự hai cực I-an-ta là gì?",
+    "options": [
+      "A. Xu thế hoà hoãn Đông - Tây.",
+      "B. Sự tan rã của Liên Xô năm 1991.",
+      "C. Sự vươn lên của Nhật Bản và Tây Âu.",
+      "D. Phong trào giải phóng dân tộc thắng lợi."
+    ],
+    "answer": "B. Sự tan rã của Liên Xô năm 1991."
+  },
+  {
+    "context": "Sự sụp đổ của Trật tự thế giới hai cực I-an-ta đã mở ra thời kì phát triển mới trong quan hệ quốc tế, thúc đẩy xu hướng hợp tác đa cực, đa trung tâm.",
+    "question": "Sự sụp đổ của Trật tự thế giới hai cực I-an-ta đã mở ra điều gì trong quan hệ quốc tế?",
+    "options": [
+      "A. Xu hướng đối đầu gay gắt hơn.",
+      "B. Một thời kì phát triển mới, đa cực trong quan hệ quốc tế.",
+      "C. Sự thống trị tuyệt đối của Mỹ.",
+      "D. Sự suy yếu của các tổ chức quốc tế."
+    ],
+    "answer": "B. Một thời kì phát triển mới, đa cực trong quan hệ quốc tế."
   }
 ]
