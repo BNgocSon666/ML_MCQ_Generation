@@ -361,5 +361,299 @@
       "D. UGA."
     ],
     "answer": "B. AUG."
+  },
+  {
+    "context": "Việt Nam có vị trí gần trung tâm của khu vực Đông Nam Á, trên đất liền tiếp giáp các nước Trung Quốc, Lào, Cam-pu-chia, chung Biển Đông với nhiều quốc gia.",
+    "question": "Việt Nam nằm ở khu vực nào của Đông Nam Á?",
+    "options": ["A. Phía tây bắc Đông Nam Á", "B. Gần trung tâm Đông Nam Á", "C. Phía nam Đông Nam Á", "D. Phía đông bắc Đông Nam Á"],
+    "answer": "B. Gần trung tâm Đông Nam Á"
+  },
+  {
+    "context": "Điểm cực Bắc của phần đất liền Việt Nam nằm ở xã Lũng Cú, huyện Đồng Văn, tỉnh Hà Giang.",
+    "question": "Điểm cực Bắc của lãnh thổ đất liền Việt Nam ở đâu?",
+    "options": ["A. Cà Mau", "B. Điện Biên", "C. Hà Giang", "D. Khánh Hòa"],
+    "answer": "C. Hà Giang"
+  },
+  {
+    "context": "Điểm cực Nam của Việt Nam nằm tại xã Đất Mũi, huyện Ngọc Hiển, tỉnh Cà Mau.",
+    "question": "Điểm cực Nam của Việt Nam nằm ở tỉnh nào?",
+    "options": ["A. Kiên Giang", "B. Sóc Trăng", "C. Bạc Liêu", "D. Cà Mau"],
+    "answer": "D. Cà Mau"
+  },
+  {
+    "context": "Điểm cực Tây của Việt Nam nằm ở xã Sín Thầu, huyện Mường Nhé, tỉnh Điện Biên.",
+    "question": "Điểm cực Tây của Việt Nam nằm ở tỉnh nào?",
+    "options": ["A. Điện Biên", "B. Sơn La", "C. Lai Châu", "D. Lào Cai"],
+    "answer": "A. Điện Biên"
+  },
+  {
+    "context": "Điểm cực Đông của Việt Nam nằm ở xã Vạn Thạnh, huyện Vạn Ninh, tỉnh Khánh Hòa.",
+    "question": "Điểm cực Đông của lãnh thổ đất liền Việt Nam ở đâu?",
+    "options": ["A. Quảng Ninh", "B. Khánh Hòa", "C. Ninh Thuận", "D. Bình Thuận"],
+    "answer": "B. Khánh Hòa"
+  },
+  {
+    "context": "Việt Nam nằm hoàn toàn trong vòng đai nóng nội chí tuyến bán cầu Bắc, thuộc khu vực khí hậu nhiệt đới gió mùa châu Á.",
+    "question": "Khí hậu đặc trưng của Việt Nam là gì?",
+    "options": ["A. Ôn đới lục địa", "B. Nhiệt đới gió mùa", "C. Hàn đới", "D. Cận nhiệt đới lục địa"],
+    "answer": "B. Nhiệt đới gió mùa"
+  },
+  {
+    "context": "Lãnh thổ Việt Nam tiếp giáp Biển Đông thông ra Thái Bình Dương, liền kề 2 vành đai sinh khoáng là Thái Bình Dương và Địa Trung Hải.",
+    "question": "Việt Nam nằm kề với những vành đai sinh khoáng nào?",
+    "options": ["A. Thái Bình Dương và Đại Tây Dương", "B. Thái Bình Dương và Địa Trung Hải", "C. Đại Tây Dương và Ấn Độ Dương", "D. Ấn Độ Dương và Bắc Băng Dương"],
+    "answer": "B. Thái Bình Dương và Địa Trung Hải"
+  },
+  {
+    "context": "Lãnh thổ Việt Nam nằm trên ngã tư đường hàng hải và hàng không quốc tế nối liền châu Á với châu Đại Dương, Thái Bình Dương và Ấn Độ Dương.",
+    "question": "Ý nghĩa vị trí địa lí của Việt Nam đối với giao thông quốc tế là gì?",
+    "options": ["A. Bị cô lập với thế giới", "B. Không thuận lợi cho giao thông", "C. Nằm trên ngã tư hàng hải, hàng không quốc tế", "D. Không liên quan đến thương mại"],
+    "answer": "C. Nằm trên ngã tư hàng hải, hàng không quốc tế"
+  },
+  {
+    "context": "Vùng đất Việt Nam có tổng diện tích các đơn vị hành chính hơn 331 nghìn km² (2021).",
+    "question": "Tổng diện tích lãnh thổ đất liền Việt Nam là bao nhiêu?",
+    "options": ["A. 231 nghìn km²", "B. 300 nghìn km²", "C. 331 nghìn km²", "D. 500 nghìn km²"],
+    "answer": "C. 331 nghìn km²"
+  },
+  {
+    "context": "Vùng biển Việt Nam có diện tích khoảng 1 triệu km², tiếp giáp Trung Quốc, Philippines, Malaysia, Indonesia, Singapore, Campuchia, Thái Lan.",
+    "question": "Diện tích vùng biển Việt Nam khoảng bao nhiêu?",
+    "options": ["A. 500 nghìn km²", "B. 700 nghìn km²", "C. 1 triệu km²", "D. 2 triệu km²"],
+    "answer": "C. 1 triệu km²"
+  },
+  {
+    "context": "Vùng biển Việt Nam gồm 5 bộ phận: nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế, thềm lục địa.",
+    "question": "Vùng biển Việt Nam KHÔNG bao gồm bộ phận nào sau đây?",
+    "options": ["A. Nội thủy", "B. Vùng đặc quyền kinh tế", "C. Thềm lục địa", "D. Vùng cực Nam"],
+    "answer": "D. Vùng cực Nam"
+  },
+  {
+    "context": "Lãnh hải Việt Nam có chiều rộng 12 hải lí tính từ đường cơ sở ra phía biển.",
+    "question": "Chiều rộng lãnh hải Việt Nam là bao nhiêu?",
+    "options": ["A. 10 hải lí", "B. 12 hải lí", "C. 15 hải lí", "D. 20 hải lí"],
+    "answer": "B. 12 hải lí"
+  },
+  {
+    "context": "Vùng đặc quyền kinh tế của Việt Nam có chiều rộng 200 hải lí tính từ đường cơ sở.",
+    "question": "Chiều rộng vùng đặc quyền kinh tế của Việt Nam là bao nhiêu?",
+    "options": ["A. 100 hải lí", "B. 150 hải lí", "C. 200 hải lí", "D. 250 hải lí"],
+    "answer": "C. 200 hải lí"
+  },
+  {
+    "context": "Thềm lục địa Việt Nam có thể mở rộng tới 350 hải lí tính từ đường cơ sở.",
+    "question": "Thềm lục địa Việt Nam được mở rộng tối đa bao nhiêu hải lí?",
+    "options": ["A. 200 hải lí", "B. 250 hải lí", "C. 300 hải lí", "D. 350 hải lí"],
+    "answer": "D. 350 hải lí"
+  },
+  {
+    "context": "Vị trí địa lí và phạm vi lãnh thổ ảnh hưởng trực tiếp đến sự hình thành các đặc điểm tự nhiên của nước ta.",
+    "question": "Thiên nhiên Việt Nam có sắc thái chung của vùng nào?",
+    "options": ["A. Ôn đới hải dương", "B. Nhiệt đới ẩm gió mùa", "C. Hàn đới lạnh", "D. Cận nhiệt lục địa"],
+    "answer": "B. Nhiệt đới ẩm gió mùa"
+  },
+  {
+    "context": "Phần đất liền hẹp ngang, nằm kề Biển Đông ⇒ thiên nhiên chịu ảnh hưởng sâu sắc của biển.",
+    "question": "Nguyên nhân thiên nhiên Việt Nam chịu ảnh hưởng mạnh của biển là gì?",
+    "options": ["A. Lãnh thổ rộng lớn", "B. Địa hình hẹp ngang, kề Biển Đông", "C. Nằm xa biển", "D. Ở trong nội lục địa"],
+    "answer": "B. Địa hình hẹp ngang, kề Biển Đông"
+  },
+  {
+    "context": "Việt Nam liền kề các vành đai sinh khoáng, hội tụ nhiều luồng động thực vật ⇒ tài nguyên và sinh vật phong phú.",
+    "question": "Đặc điểm nào sau đây đúng về tài nguyên và sinh vật Việt Nam?",
+    "options": ["A. Nghèo nàn, ít loài", "B. Phong phú, đa dạng", "C. Giống hệt Trung Quốc", "D. Chỉ có rừng ngập mặn"],
+    "answer": "B. Phong phú, đa dạng"
+  },
+  {
+    "context": "Thiên nhiên có sự phân hóa đa dạng, khác nhau giữa miền Bắc với miền Nam, miền núi với đồng bằng.",
+    "question": "Thiên nhiên Việt Nam phân hóa đa dạng chủ yếu do yếu tố nào?",
+    "options": ["A. Lịch sử", "B. Vị trí địa lí", "C. Con người", "D. Dân cư"],
+    "answer": "B. Vị trí địa lí"
+  },
+  {
+    "context": "Việt Nam nằm trong vùng có nhiều thiên tai: bão, áp thấp nhiệt đới, lũ lụt, hạn hán.",
+    "question": "Thiên tai phổ biến ở Việt Nam là gì?",
+    "options": ["A. Núi lửa phun", "B. Bão, lũ lụt, hạn hán", "C. Sóng thần thường xuyên", "D. Động đất cực mạnh"],
+    "answer": "B. Bão, lũ lụt, hạn hán"
+  },
+  {
+    "context": "Việt Nam nằm trong khu vực kinh tế phát triển năng động bậc nhất thế giới, án ngữ tuyến hàng hải và hàng không quốc tế.",
+    "question": "Vị trí địa lí mang lại thuận lợi nào cho kinh tế Việt Nam?",
+    "options": ["A. Bị cô lập giao lưu", "B. Thuận lợi hội nhập quốc tế", "C. Hạn chế thương mại", "D. Khó tiếp cận đầu tư"],
+    "answer": "B. Thuận lợi hội nhập quốc tế"
+  },
+  {
+    "context": "Các nước Đông Nam Á có nhiều nét tương đồng về lịch sử, văn hóa, xã hội.",
+    "question": "Việc có nhiều nét tương đồng giữa các nước Đông Nam Á này giúp Việt Nam có lợi thế gì?",
+    "options": ["A. Cạnh tranh gay gắt", "B. Chung sống hòa bình, hợp tác phát triển", "C. Không liên hệ khu vực", "D. Bị chia cắt văn hóa"],
+    "answer": "B. Chung sống hòa bình, hợp tác phát triển"
+  },
+  {
+    "context": "Biển Đông là hướng chiến lược quan trọng trong công cuộc xây dựng, phát triển kinh tế và bảo vệ đất nước.",
+    "question": "Ý nghĩa của Biển Đông đối với Việt Nam là gì?",
+    "options": ["A. Chỉ phục vụ du lịch", "B. Hướng chiến lược về kinh tế và quốc phòng", "C. Ít quan trọng", "D. Không liên quan phát triển"],
+    "answer": "B. Hướng chiến lược về kinh tế và quốc phòng"
+  },
+  {
+    "context": "Tăng trưởng kinh tế là sự tăng lên về quy mô sản lượng của nền kinh tế trong một thời kì nhất định. Tăng trưởng kinh tế được đo bằng mức tăng GDP hoặc GNI trong một khoảng thời gian.",
+    "question": "Tăng trưởng kinh tế được đo lường chủ yếu bằng chỉ tiêu nào?",
+    "options": ["A. Tổng sản phẩm quốc nội (GDP)", "B. Chỉ số phát triển con người (HDI)", "C. Hệ số Gini", "D. Chỉ số đói nghèo"],
+    "answer": "A. Tổng sản phẩm quốc nội (GDP)"
+  },
+  {
+    "context": "Một số chỉ tiêu tăng trưởng kinh tế gồm GDP, GDP/người, GNI, GNI/người.",
+    "question": "Trong các chỉ tiêu sau, đâu KHÔNG phải là chỉ tiêu tăng trưởng kinh tế?",
+    "options": ["A. GDP", "B. GDP/người", "C. HDI", "D. GNI/người"],
+    "answer": "C. HDI"
+  },
+  {
+    "context": "Tăng trưởng kinh tế có vai trò quan trọng: khắc phục đói nghèo, tạo việc làm, tăng thu nhập, nâng cao phúc lợi xã hội, phát triển văn hóa giáo dục, củng cố quốc phòng an ninh.",
+    "question": "Một trong những vai trò quan trọng của tăng trưởng kinh tế là gì?",
+    "options": ["A. Làm giảm chỉ số HDI", "B. Góp phần nâng cao phúc lợi xã hội", "C. Giảm GDP/người", "D. Làm tăng hệ số Gini"],
+    "answer": "B. Góp phần nâng cao phúc lợi xã hội"
+  },
+  {
+    "context": "Phát triển kinh tế là sự tăng trưởng kinh tế gắn với chuyển dịch cơ cấu kinh tế và đảm bảo tiến bộ xã hội.",
+    "question": "Phát triển kinh tế khác với tăng trưởng kinh tế ở điểm nào?",
+    "options": ["A. Chỉ đề cập đến sự thay đổi về lượng", "B. Bao hàm cả tiến bộ xã hội và chuyển dịch cơ cấu kinh tế", "C. Không liên quan đến tiến bộ xã hội", "D. Chỉ tập trung vào GDP/người"],
+    "answer": "B. Bao hàm cả tiến bộ xã hội và chuyển dịch cơ cấu kinh tế"
+  },
+  {
+    "context": "Các chỉ tiêu phát triển kinh tế gồm: tăng trưởng kinh tế, chuyển dịch cơ cấu ngành kinh tế, chỉ số HDI, hệ số Gini.",
+    "question": "Chỉ số nào sau đây phản ánh tiến bộ xã hội trong phát triển kinh tế?",
+    "options": ["A. GDP/người", "B. GNI", "C. HDI", "D. GDP"],
+    "answer": "C. HDI"
+  },
+  {
+    "context": "Tăng trưởng kinh tế là điều kiện, tiền đề cho phát triển kinh tế nhưng chưa đủ. Phát triển kinh tế rộng hơn, bao gồm cả tiến bộ xã hội.",
+    "question": "Mối quan hệ giữa tăng trưởng và phát triển kinh tế được hiểu đúng nhất như thế nào?",
+    "options": ["A. Tăng trưởng kinh tế đồng nghĩa với phát triển kinh tế", "B. Phát triển kinh tế chỉ cần tăng trưởng kinh tế", "C. Tăng trưởng kinh tế là điều kiện cần cho phát triển kinh tế", "D. Hai khái niệm này hoàn toàn tách biệt"],
+    "answer": "C. Tăng trưởng kinh tế là điều kiện cần cho phát triển kinh tế"
+  },
+  {
+    "context": "Phát triển kinh tế đảm bảo tiền đề vật chất cho việc phát triển kết cấu hạ tầng, tăng cường quốc phòng an ninh, đẩy mạnh hội nhập quốc tế.",
+    "question": "Một vai trò quan trọng của phát triển kinh tế là gì?",
+    "options": ["A. Làm giảm năng lực quản lí của Nhà nước", "B. Giúp phát triển kết cấu hạ tầng và nâng cao tiềm lực quốc gia", "C. Làm tăng bất bình đẳng xã hội", "D. Chỉ chú trọng tăng trưởng GDP"],
+    "answer": "B. Giúp phát triển kết cấu hạ tầng và nâng cao tiềm lực quốc gia"
+  },
+  {
+    "context": "Tăng trưởng kinh tế là một nội dung của phát triển bền vững. Nếu tăng trưởng không hợp lí có thể gây tác động tiêu cực, cản trở phát triển bền vững.",
+    "question": "Tại sao tăng trưởng kinh tế chưa hợp lí có thể gây cản trở phát triển bền vững?",
+    "options": ["A. Vì chỉ tập trung vào GDP mà bỏ qua tiến bộ xã hội và môi trường", "B. Vì tăng trưởng kinh tế luôn gắn với HDI", "C. Vì phát triển bền vững chỉ chú trọng đến tốc độ tăng GDP", "D. Vì mọi quốc gia đều cần tăng trưởng nhanh nhất có thể"],
+    "answer": "A. Vì chỉ tập trung vào GDP mà bỏ qua tiến bộ xã hội và môi trường"
+  },
+  {
+    "context": "Phát triển bền vững yêu cầu nâng cao chất lượng tăng trưởng, giữ ổn định chính trị, nâng cao chất lượng nguồn nhân lực, góp phần thúc đẩy tăng trưởng kinh tế.",
+    "question": "Phát triển bền vững có tác động thế nào đến tăng trưởng kinh tế?",
+    "options": ["A. Hạn chế hội nhập quốc tế", "B. Góp phần nâng cao chất lượng và ổn định tăng trưởng", "C. Làm giảm tốc độ phát triển nguồn nhân lực", "D. Chỉ tập trung vào công nghiệp hóa"],
+    "answer": "B. Góp phần nâng cao chất lượng và ổn định tăng trưởng"
+  },
+  {
+    "context": "Quốc phòng là công việc giữ nước của một quốc gia, gồm tổng thể hoạt động đối nội, đối ngoại của Nhà nước và nhân dân để tạo nên sức mạnh toàn diện, cân đối, trong đó sức mạnh quân sự là đặc trưng, nhằm giữ gìn hoà bình, đẩy lùi, ngăn chặn các hoạt động gây chiến của kẻ thù và sẵn sàng đánh thắng chiến tranh xâm lược. Quốc phòng toàn dân là nền quốc phòng mang tính 'vì dân, do dân, của dân', phát triển theo phương hướng toàn dân, toàn diện, độc lập, tự chủ, tự lực, tự cường và ngày càng hiện đại; nhằm giữ vững hoà bình, ổn định đất nước, sẵn sàng đánh bại âm mưu, thủ đoạn xâm lược và bạo loạn lật đổ của các thế lực thù địch.",
+    "question": "Quốc phòng toàn dân phát triển theo phương hướng nào?",
+    "options": ["A. Tập trung vào lực lượng quân đội chuyên nghiệp", "B. Toàn dân, toàn diện, độc lập, tự chủ, tự lực, tự cường và hiện đại", "C. Phụ thuộc hoàn toàn vào nước ngoài", "D. Chỉ tập trung vào hoạt động đối ngoại"],
+    "answer": "B. Toàn dân, toàn diện, độc lập, tự chủ, tự lực, tự cường và hiện đại"
+  },
+  {
+    "context": "An ninh quốc gia là sự ổn định, phát triển bền vững của chế độ xã hội chủ nghĩa và nước Cộng hoà xã hội chủ nghĩa Việt Nam, sự bất khả xâm phạm độc lập, chủ quyền thống nhất và toàn vẹn lãnh thổ của Tổ quốc. An ninh nhân dân là sự nghiệp của toàn dân, do dân tiến hành, lực lượng an ninh nhân dân làm nòng cốt dưới sự lãnh đạo của Đảng và sự quản lí của Nhà nước.",
+    "question": "An ninh nhân dân được thực hiện như thế nào?",
+    "options": ["A. Do toàn dân thực hiện, lực lượng an ninh làm nòng cốt, dưới sự lãnh đạo của Đảng và quản lí của Nhà nước", "B. Chỉ do quân đội thực hiện", "C. Chỉ do lực lượng công an thực hiện", "D. Phụ thuộc vào các tổ chức quốc tế"],
+    "answer": "A. Do toàn dân thực hiện, lực lượng an ninh làm nòng cốt, dưới sự lãnh đạo của Đảng và quản lí của Nhà nước"
+  },
+  {
+    "context": "Nền quốc phòng - an ninh của dân, do dân, vì dân có mục đích duy nhất là tự vệ chính đáng. Sức mạnh của nền quốc phòng toàn dân, an ninh nhân dân là cơ sở để triển khai một chiến lược tổng hợp bảo vệ Tổ quốc. Nền quốc phòng toàn dân, an ninh nhân dân được xây dựng toàn diện và từng bước hiện đại, kết hợp các mặt chính trị, quân sự, an ninh, kinh tế, văn hóa, khoa học và đối ngoại.",
+    "question": "Mục đích duy nhất của nền quốc phòng toàn dân, an ninh nhân dân là gì?",
+    "options": ["A. Phát triển kinh tế", "B. Tự vệ chính đáng", "C. Xây dựng cơ sở hạ tầng", "D. Hội nhập quốc tế"],
+    "answer": "B. Tự vệ chính đáng"
+  },
+  {
+    "context": "Xây dựng tiềm lực quốc phòng toàn dân, an ninh nhân dân bao gồm: tiềm lực chính trị, tinh thần; tiềm lực kinh tế; tiềm lực khoa học, công nghệ; tiềm lực quân sự, an ninh. Tiềm lực chính trị, tinh thần bao gồm tình yêu quê hương đất nước, niềm tin với Đảng, xây dựng hệ thống chính trị trong sạch, vững mạnh, khối đại đoàn kết, củng cố hiệu lực tổ chức quần chúng và giữ vững ổn định chính trị, trật tự an toàn xã hội.",
+    "question": "Tiềm lực chính trị, tinh thần trong xây dựng quốc phòng toàn dân, an ninh nhân dân bao gồm những yếu tố nào?",
+    "options": ["A. Chỉ tình yêu quê hương đất nước", "B. Tình yêu quê hương, niềm tin với Đảng, xây dựng hệ thống chính trị vững mạnh, khối đại đoàn kết, giữ vững ổn định chính trị và trật tự an toàn xã hội", "C. Chỉ tập trung quân sự", "D. Chỉ phát triển kinh tế"],
+    "answer": "B. Tình yêu quê hương, niềm tin với Đảng, xây dựng hệ thống chính trị vững mạnh, khối đại đoàn kết, giữ vững ổn định chính trị và trật tự an toàn xã hội"
+  },
+  {
+    "context": "Tiềm lực kinh tế bao gồm sự kết hợp phát triển kinh tế với quốc phòng, an ninh; đảm bảo cơ sở vật chất, khả năng chuyển từ thời bình sang thời chiến; cải thiện đời sống nhân dân và lực lượng vũ trang; xây dựng cơ sở hạ tầng kinh tế kết hợp với cơ sở hạ tầng quốc phòng, an ninh; kế hoạch động viên nền kinh tế khi tình hình đòi hỏi.",
+    "question": "Một trong những nội dung của tiềm lực kinh tế là gì?",
+    "options": ["A. Phát triển kinh tế độc lập với quốc phòng, an ninh", "B. Đảm bảo cơ sở vật chất và khả năng chuyển từ thời bình sang thời chiến, kết hợp phát triển kinh tế với quốc phòng, an ninh", "C. Chỉ xây dựng cơ sở hạ tầng kinh tế", "D. Chỉ tập trung vào lực lượng vũ trang"],
+    "answer": "B. Đảm bảo cơ sở vật chất và khả năng chuyển từ thời bình sang thời chiến, kết hợp phát triển kinh tế với quốc phòng, an ninh"
+  },
+  {
+    "context": "Tiềm lực khoa học, công nghệ bao gồm huy động các ngành khoa học, trong đó khoa học quân sự, an ninh làm nòng cốt; nghiên cứu các vấn đề quân sự, an ninh; cải tiến, sản xuất vũ khí trang bị; đào tạo cán bộ khoa học, kỹ thuật; kết hợp nghiên cứu kinh tế với nghiên cứu quốc phòng, an ninh; hiện đại hóa cơ sở hạ tầng và phòng thí nghiệm.",
+    "question": "Tiềm lực khoa học, công nghệ phục vụ mục đích gì trong quốc phòng toàn dân, an ninh nhân dân?",
+    "options": ["A. Chỉ nghiên cứu kinh tế", "B. Nghiên cứu quân sự, an ninh, cải tiến vũ khí trang bị, kết hợp nghiên cứu kinh tế và hiện đại hóa cơ sở hạ tầng", "C. Chỉ đào tạo cán bộ", "D. Không liên quan đến quốc phòng"],
+    "answer": "B. Nghiên cứu quân sự, an ninh, cải tiến vũ khí trang bị, kết hợp nghiên cứu kinh tế và hiện đại hóa cơ sở hạ tầng"
+  },
+  {
+    "context": "Tiềm lực quân sự, an ninh bao gồm xây dựng quân đội, công an theo hướng cách mạng, chính quy, tinh nhuệ, hiện đại; nâng cao chất lượng tổng hợp; lấy xây dựng chính trị làm cơ sở; kết hợp công nghiệp hóa, hiện đại hóa đất nước với cơ sở vật chất kỹ thuật, vũ khí trang bị; chuẩn bị phương án và lực lượng chiến đấu sẵn sàng đối phó mọi tình huống; tổ chức giáo dục quốc phòng - an ninh và chấp hành luật nghĩa vụ quân sự.",
+    "question": "Tiềm lực quân sự, an ninh bao gồm những nội dung gì?",
+    "options": ["A. Chỉ xây dựng quân đội", "B. Xây dựng quân đội, công an tinh nhuệ, hiện đại; chuẩn bị phương án chiến đấu; kết hợp công nghiệp hóa, hiện đại hóa; tổ chức giáo dục quốc phòng", "C. Chỉ tập trung vào vũ khí trang bị", "D. Chỉ giáo dục quốc phòng"],
+    "answer": "B. Xây dựng quân đội, công an tinh nhuệ, hiện đại; chuẩn bị phương án chiến đấu; kết hợp công nghiệp hóa, hiện đại hóa; tổ chức giáo dục quốc phòng"
+  },
+  {
+    "context": "Hệ thống điện trong gia đình dùng điện một pha. Cấu trúc gồm tủ đóng cắt và đo lường (công tơ điện, aptomat), tủ điện tổng (cầu dao, cầu chì, aptomat), tủ điện nhánh (apto­mat), và tải gồm công tắc điện, ổ điện. Aptomat hai cực đóng cắt đồng thời dây pha và dây trung tính; aptomat một cực chỉ đóng cắt dây pha.",
+    "question": "Hệ thống điện trong gia đình sử dụng loại điện nào và bao gồm những thành phần chính nào?",
+    "options": [
+      "A. Điện ba pha; gồm tủ điện tổng, tủ nhánh và tải",
+      "B. Điện một pha; gồm tủ đóng cắt và đo lường, tủ điện tổng, tủ điện nhánh, tải",
+      "C. Điện một pha; chỉ gồm tủ điện tổng và tải",
+      "D. Điện ba pha; gồm tủ đóng cắt, tủ điện tổng và công tắc"
+    ],
+    "answer": "B. Điện một pha; gồm tủ đóng cắt và đo lường, tủ điện tổng, tủ điện nhánh, tải"
+  },
+  {
+    "context": "Công tơ điện dùng để đo điện năng tiêu thụ của các thiết bị và đồ dùng điện trong gia đình (đơn vị kWh). Các thông số kỹ thuật gồm điện áp định mức Uđm (V), dòng điện định mức Iđm (A), dòng điện cực đại Im (A), và cấp chính xác cho biết sai số của công tơ.",
+    "question": "Chức năng chính của công tơ điện trong gia đình là gì?",
+    "options": [
+      "A. Để đóng cắt mạch điện khi quá tải",
+      "B. Để đo điện năng tiêu thụ của các thiết bị và đồ dùng điện trong gia đình",
+      "C. Để kết nối nguồn điện với các tải điện",
+      "D. Để bảo vệ mạch điện khi ngắn mạch"
+    ],
+    "answer": "B. Để đo điện năng tiêu thụ của các thiết bị và đồ dùng điện trong gia đình"
+  },
+  {
+    "context": "Cầu dao có chức năng đóng, cắt mạch điện. Dùng cầu dao hai cực để đảm bảo an toàn, phục vụ kiểm tra, bảo dưỡng, sửa chữa và thường lắp cùng cầu chì bảo vệ mạch điện khi có sự cố ngắn mạch. Các thông số kỹ thuật gồm điện áp định mức Uđm (V) và dòng điện định mức Iđm (A).",
+    "question": "Cầu dao hai cực trong hệ thống điện gia đình có tác dụng gì?",
+    "options": [
+      "A. Chỉ đo điện năng tiêu thụ",
+      "B. Đóng, cắt mạch điện, bảo vệ an toàn, thường lắp cùng cầu chì",
+      "C. Chỉ nối tải điện với nguồn điện",
+      "D. Chỉ dùng để trang trí trong tủ điện"
+    ],
+    "answer": "B. Đóng, cắt mạch điện, bảo vệ an toàn, thường lắp cùng cầu chì"
+  },
+  {
+    "context": "Aptomat dùng để đóng, cắt mạch điện và tự động cắt khi có sự cố quá tải hoặc ngắn mạch. Aptomat một cực chỉ đóng cắt dây pha; aptomat hai cực đóng cắt đồng thời dây pha và dây trung tính. Các thông số kỹ thuật gồm điện áp định mức Uđm (V), dòng điện định mức Iđm (A), dòng cắt ngắn mạch Inm (A).",
+    "question": "Điểm khác biệt giữa aptomat một cực và hai cực là gì?",
+    "options": [
+      "A. Một cực đóng cắt dây trung tính; hai cực đóng cắt dây pha",
+      "B. Một cực chỉ đóng cắt dây pha; hai cực đóng cắt đồng thời dây pha và dây trung tính",
+      "C. Một cực đo điện năng; hai cực bảo vệ mạch điện",
+      "D. Không có khác biệt"
+    ],
+    "answer": "B. Một cực chỉ đóng cắt dây pha; hai cực đóng cắt đồng thời dây pha và dây trung tính"
+  },
+  {
+    "context": "Công tắc điện dùng để đóng, cắt mạch điện cho một số tải điện công suất vừa và nhỏ trong gia đình. Phân loại gồm công tắc cơ và công tắc cảm ứng. Các thông số kỹ thuật gồm điện áp định mức Uđm (V) và dòng điện định mức Iđm (A).",
+    "question": "Chức năng chính của công tắc điện là gì?",
+    "options": [
+      "A. Đo điện năng tiêu thụ",
+      "B. Đóng, cắt mạch điện cho tải điện vừa và nhỏ",
+      "C. Cắt mạch điện khi ngắn mạch",
+      "D. Nối nguồn điện với ổ cắm"
+    ],
+    "answer": "B. Đóng, cắt mạch điện cho tải điện vừa và nhỏ"
+  },
+  {
+    "context": "Ổ cắm điện dùng để kết nối nguồn điện với các tải điện. Phân loại gồm ổ cắm âm tường và ổ cắm kéo dài. Các thông số kỹ thuật gồm điện áp định mức Uđm (V) và dòng điện định mức Iđm (A). Phích cắm điện dùng để cắm vào ổ cắm điện, nối tải điện và nguồn điện, gồm phích cắm hai chấu và ba chấu với các thông số kỹ thuật tương tự.",
+    "question": "Chức năng của ổ cắm và phích cắm điện trong gia đình là gì?",
+    "options": [
+      "A. Để đo điện năng tiêu thụ",
+      "B. Để kết nối nguồn điện với tải điện và nối tải điện với nguồn điện",
+      "C. Để đóng cắt mạch điện",
+      "D. Chỉ để trang trí"
+    ],
+    "answer": "B. Để kết nối nguồn điện với tải điện và nối tải điện với nguồn điện"
   }
 ]
