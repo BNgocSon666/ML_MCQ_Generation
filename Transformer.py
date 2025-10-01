@@ -3,9 +3,11 @@ import torch.nn as nn
 import math
 
 
-class positional_encoding(nn.Module):
-    def __init__(self, d_model, max_len=5000):
+class PositionalEncoding(nn.Module):
+    def __init__(self, d_model, max_len=5000, dropout=0.1):
         super().__init__()
+        self.dropout = nn.Dropout(dropout)
+
         pe = torch.zeros(max_len, d_model)
         position = torch.arange(0, max_len).unsqueeze(1).float()
         div_term = torch.exp(
@@ -17,10 +19,11 @@ class positional_encoding(nn.Module):
         self.register_buffer("pe", pe)
 
     def forward(self, x):
-        return x + self.pe[:, : x.size(1)]
+        x = x + self.pe[:, : x.size(1)]
+        return self.dropout(x)
 
 
-class multihead_attention(nn.Module):
+class MultiheadAttention(nn.Module):
     def __init__(self, d_model, num_heads):
         super().__init__()
         assert d_model % num_heads == 0
@@ -53,25 +56,25 @@ class multihead_attention(nn.Module):
         return output, attention
 
 
-class feed_forward(nn.Module):
+class FeedForward(nn.Module):
     def __init__(self, d_model, hidden_dim=512, dropout=0.1):
         super().__init__()
         self.net = nn.Sequential(
             nn.Linear(d_model, hidden_dim),
             nn.ReLU(),
-            nn.Linear(hidden_dim, d_model),
             nn.Dropout(dropout),
+            nn.Linear(hidden_dim, d_model),
         )
 
     def forward(self, x):
         return self.net(x)
 
 
-class encoder_layer(nn.Module):
+class EncoderLayer(nn.Module):
     def __init__(self, d_model, num_heads, hidden_dim, dropout=0.1):
         super().__init__()
-        self.self_attention = multihead_attention(d_model, num_heads)
-        self.feed_forward = feed_forward(d_model, hidden_dim, dropout)
+        self.self_attention = MultiheadAttention(d_model, num_heads)
+        self.feed_forward = FeedForward(d_model, hidden_dim, dropout)
         self.norm1 = nn.LayerNorm(d_model)
         self.norm2 = nn.LayerNorm(d_model)
         self.dropout = nn.Dropout(dropout)
@@ -84,12 +87,12 @@ class encoder_layer(nn.Module):
         return x
 
 
-class decoder_layer(nn.Module):
+class DecoderLayer(nn.Module):
     def __init__(self, d_model, num_heads, hidden_dim, dropout=0.1):
         super().__init__()
-        self.self_attention = multihead_attention(d_model, num_heads)
-        self.cross_attention = multihead_attention(d_model, num_heads)
-        self.feed_forward = feed_forward(d_model, hidden_dim, dropout)
+        self.self_attention = MultiheadAttention(d_model, num_heads)
+        self.cross_attention = MultiheadAttention(d_model, num_heads)
+        self.feed_forward = FeedForward(d_model, hidden_dim, dropout)
 
         self.norm1 = nn.LayerNorm(d_model)
         self.norm2 = nn.LayerNorm(d_model)
@@ -99,14 +102,14 @@ class decoder_layer(nn.Module):
     def forward(self, x, enc_output, src_mask=None, tgt_mask=None):
         attn_output, _ = self.self_attention(x, x, x, tgt_mask)
         x = self.norm1(x + self.dropout(attn_output))
-        crss_output, _ = self.cross_attention(x, enc_output, enc_output, src_mask)
-        x = self.norm2(x + self.dropout(crss_output))
+        cross_output, _ = self.cross_attention(x, enc_output, enc_output, src_mask)
+        x = self.norm2(x + self.dropout(cross_output))
         ff_output = self.feed_forward(x)
         x = self.norm3(x + self.dropout(ff_output))
         return x
 
 
-class transformer(nn.Module):
+class Transformer(nn.Module):
     def __init__(
         self,
         vocab_size,
@@ -118,30 +121,33 @@ class transformer(nn.Module):
         max_len=500,
     ):
         super().__init__()
+        self.d_model = d_model
         self.embedding = nn.Embedding(vocab_size, d_model)
-        self.pos_encoding = positional_encoding(d_model, max_len)
+        self.pos_encoding = PositionalEncoding(d_model, max_len, dropout)
         self.encoder_layers = nn.ModuleList(
             [
-                encoder_layer(d_model, num_heads, hidden_dim, dropout)
+                EncoderLayer(d_model, num_heads, hidden_dim, dropout)
                 for _ in range(num_layers)
             ]
         )
         self.decoder_layers = nn.ModuleList(
             [
-                decoder_layer(d_model, num_heads, hidden_dim, dropout)
+                DecoderLayer(d_model, num_heads, hidden_dim, dropout)
                 for _ in range(num_layers)
             ]
         )
         self.fc_out = nn.Linear(d_model, vocab_size)
 
     def encode(self, src, src_mask):
-        x = self.pos_encoding(self.embedding(src))
+        x = self.embedding(src) * math.sqrt(self.d_model)
+        x = self.pos_encoding(x)
         for layer in self.encoder_layers:
             x = layer(x, src_mask)
         return x
 
     def decode(self, tgt, enc_out, src_mask=None, tgt_mask=None):
-        x = self.pos_encoding(self.embedding(tgt))
+        x = self.embedding(tgt) * math.sqrt(self.d_model)
+        x = self.pos_encoding(x)
         for layer in self.decoder_layers:
             x = layer(x, enc_out, src_mask, tgt_mask)
         return x
